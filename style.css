@@ -24,20 +24,28 @@
   align-items: center;
 }
 .destroyer {
-  background-color: brown;
+  background-color: rgb(87, 86, 86);
 }
 .submarine {
-  background-color: green;
+  background-color: rgb(2, 70, 2);
 }
 .cruiser {
-  background-color: purple;
+  background-color: darkblue;
 }
 .battleship {
-  background-color: orange;
+  background-color: rgb(94, 2, 2);
 }
 .carrier {
-  background-color: blue;
+  background-color: navy;
 }
+/* .destroyer,
+.submarine,
+.carrier,
+.battleship,
+.cruiser {
+  border: 1px solid;
+  box-sizing: border-box;
+} */
 .destroyer-preview {
   width: 20px;
   height: 10px;
@@ -63,12 +71,19 @@
   height: 10px;
   margin: 3px;
 }
-.hover{
-  background-color: gray;
+.hover {
+  background-color: lightgray;
 }
-.boom{
-  background-color: red;
+.boom {
+  background-color: rgb(255, 0, 0) !important;
 }
-.empty{
-  background-color: gray;
+.empty {
+  background-color: lightblue !important;
+}
+#computer .destroyer,
+#computer .submarine,
+#computer .carrier,
+#computer .battleship,
+#computer .cruiser {
+  background-color: rgb(106, 106, 247);
 }
